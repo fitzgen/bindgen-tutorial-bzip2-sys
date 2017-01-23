@@ -1,4 +1,4 @@
-extern crate libbindgen;
+extern crate bindgen;
 
 use std::env;
 use std::path::PathBuf;
@@ -6,7 +6,7 @@ use std::path::PathBuf;
 fn main() {
     println!("cargo:rustc-link-lib=bz2");
 
-    let bindings = libbindgen::Builder::default()
+    let bindings = bindgen::Builder::default()
         .no_unstable_rust()
         .header("wrapper.h")
         .generate()

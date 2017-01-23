@@ -5,4 +5,4 @@ name = "libbindgen-tutorial-bzip2-sys"
 version = "0.1.0"
 
 [build-dependencies]
-libbindgen = "0.1.2"
+bindgen = "0.20.0"
