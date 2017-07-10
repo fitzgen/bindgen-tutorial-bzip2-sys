@@ -1,8 +1,8 @@
 [package]
 authors = ["Nick Fitzgerald <fitzgen@gmail.com>"]
 build = "build.rs"
-name = "libbindgen-tutorial-bzip2-sys"
+name = "bindgen-tutorial-bzip2-sys"
 version = "0.1.0"
 
 [build-dependencies]
-bindgen = "0.20.0"
+bindgen = "0.26.3"
